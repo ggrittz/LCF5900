@@ -75,8 +75,8 @@ xls_2 <- "DadosClima_Piracicaba.csv"
 prm_3 <- "?raw=true"
 gitFile <- file.path(url_1, xls_2) %>% paste0(prm_3)
 
-# Downloads Excel table as a tibble (dataframe) from github
-df <- read.csv(gitFile, sep=";")  %>% tibble()                 # import
+# Downloads Excel table as a tibble from GitHub
+df <- read.csv(gitFile, sep=";")  %>% tibble()
 
 # Show column names and first rows from the table
 colnames(df)
@@ -112,5 +112,10 @@ barplot(rev(dias_estiagem),
         ylab = "Frequência",
         main = "Frequência das estiagens entre 2000 e 2024",
         ylim = c(0, 500))
+
+
+
+
+
 
 
