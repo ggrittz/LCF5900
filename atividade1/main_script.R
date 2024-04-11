@@ -114,26 +114,3 @@ barplot(rev(dias_estiagem),
         ylim = c(0, 500))
 
 
-#######################
-#######################
-##### ATIVIDADE 3 #####
-#######################
-#######################
-#ver sempre as aulas para lembrar o que fazer
-#Google Colab: descrever trabalho do Zenodo no Python/R
-
-
-
-#######################
-#######################
-##### ATIVIDADE 4 #####
-#######################
-#######################
-
-#Doku com meu perfil/códigos em R e códigos em Python
-
-
-
-
-
-
